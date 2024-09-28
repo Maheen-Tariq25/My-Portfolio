@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: darkcyan;
+}
+
+
+.main{
+    color: aqua;  
+   padding-left: 8%;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+   margin: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+}
+
+ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: beige;
+}
+
+ul li a:hover{
+    color: aquamarine;
+}
+
+.info{
+    margin-top: 10%;
+    margin-left: 35%;
+}
+
+h1 span{
+    font-size: 65px;
+    color: aqua;
+}
+
+h1 b{
+   font-size: 70px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 24px;
+}
+
+p i{
+    color: aqua;
+}
+
+.info a{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+    margin:26px 0 ;
+    padding:10px 100px ;
+    border-radius:10px ;
+    display: inline-block;
+    font-size: x-large;
+}
+
+.info a:hover{
+    color:white ;
+}
+
+.image{
+    width: 37%;
+    height: 67%;
+    position: absolute;
+   left: 100px;
+    bottom: 10%;
+}
+
+.image img {
+    position: relative; /* Ensure it doesn't overlap with text */
+    height: 350px; /* Increase the height */
+    width: 350px;  /* Make the width the same as the height for a perfect circle */
+    border-radius: 50%; /* Keep the circular shape */
+    object-fit: cover; /* Ensures the image scales properly to fit the circle */
+    z-index: 1; /* Ensure the image doesn't overlap text */
+    margin-top: 20px; /* Adjust margin to prevent overlapping */
+}
+
+.icons a{
+    text-decoration: none;
+    color:white;
+}
+
+.icons ion-icon{
+    font-size: 30px;
+    display: inline-block;
+    margin-left:35%;
+    margin-right: -35%;
+    width: 60px; 
+}
+
+    
+
